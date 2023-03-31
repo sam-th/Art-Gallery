@@ -3,6 +3,7 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
+    direction: rtl;
 }
 body {
     line-height: 1.6;
