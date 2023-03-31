@@ -21,4 +21,51 @@
     padding-left: 2rem;
 }
 /* end nav-bar */
+/* start banner styles */
+.header-baner__container {
+    text-align: center;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    height: 66rem;
+    justify-content: center;
+    border-bottom-left-radius: 95px;
+    border-bottom-right-radius: 95px;
+}
+.header-baner__container-texts {
+    color: var(--white-color);
+}
+.header-baner__container-title {
+    font-size: 100px;
+    font-family: var(--slogan-font);
+}
+.header-baner__container-text {
+    position: absolute;
+    top: 288px; /*these two are not dynamic*/
+    right: 72.8rem;
+    font-size: 22px;
+}
+.header-baner__container-bottom {
+    padding-top: 95px;
+}
+.header-baner__container-slogan-text {
+    font-size: 35px;
+    color: #403939;
+}
+.header-baner__container-btns-container {
+    padding-top: 95px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-baner__container-btns-container__btn{
+    background-color: #C99B41;
+    border: none;
+    padding: 1.5rem 4.2rem;
+    border-radius: 22px;
+    font-size: 22px;
+    color: var(--white-color);
+    box-shadow: 0 4px 4px rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+/* end banner styles */
 /* start header */
