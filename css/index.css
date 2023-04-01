@@ -38,11 +38,10 @@
 .header-baner__container-title {
     font-size: 100px;
     font-family: var(--slogan-font);
+    display: flex;
+    flex-direction: column;
 }
 .header-baner__container-text {
-    position: absolute;
-    top: 288px; /*these two are not dynamic*/
-    right: 72.8rem;
     font-size: 22px;
 }
 .header-baner__container-bottom {
@@ -75,8 +74,8 @@
 /* end banner styles */
 /* start trust-section */
 .trust-div__title {
-    font-size: 58px;
-    padding-right: 49rem;
+    font-size: 48px;
+    text-align: center;
     margin-top: 2.5rem;
 }
 .trust-div {
@@ -86,7 +85,7 @@
 }
 .trust-div__text-box {
     height: 448px;
-    width: 487px;
+    width: 44rem;
     margin-right: 2.8rem;
     text-align: center;
 }
@@ -95,6 +94,7 @@
 }
 .trust-div__text-box__content {
     font-size: 23px;
+    color: var(--grey-color)
 }
 /* end trust-section */
 /* start header */
