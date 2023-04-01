@@ -66,6 +66,11 @@
     color: var(--white-color);
     box-shadow: 0 4px 4px rgba(0,0,0,0.4);
     cursor: pointer;
+    transition: all 450ms ease;
+}
+.header-baner__container-btns-container__btn:hover {
+    box-shadow: none;
+    background-color: #ad8433;
 }
 /* end banner styles */
 /* start header */
