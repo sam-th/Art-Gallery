@@ -73,4 +73,28 @@
     background-color: #ad8433;
 }
 /* end banner styles */
+/* start trust-section */
+.trust-div__title {
+    font-size: 58px;
+    padding-right: 49rem;
+    margin-top: 2.5rem;
+}
+.trust-div {
+    padding: 4rem 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.trust-div__text-box {
+    height: 448px;
+    width: 487px;
+    margin-right: 2.8rem;
+    text-align: center;
+}
+.trust-div__text-box__title {
+    font-size: 30px;
+}
+.trust-div__text-box__content {
+    font-size: 23px;
+}
+/* end trust-section */
 /* start header */
