@@ -1,0 +1,20 @@
+/* start nav-bar */
+.nav-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--nav-bar-color);
+    padding: 10px 0;
+}
+.nav-bar__right-link {
+    padding-right: 2rem;
+    font-size: 1.5rem;
+}
+.nav-bar__link {
+    color: var(--white-color);
+}
+.nav-bar__left-link {
+    padding-left: 2rem;
+}
+/* end nav-bar */
