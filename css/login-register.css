@@ -1,3 +1,89 @@
 @import "./defult.css";
 @import "./nav-bar.css";
 @import "./footer.css";
+.login-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 4.5rem;
+}
+.login-box {
+    background-color: #D9D9D9;
+    border-radius: 32px;
+    box-shadow: 11px 5px 52px rgba(0,0,0,.3);
+    display: flex;
+    flex-direction: column;
+    width: 44rem;
+    height: 60rem;
+}
+.login-box__top-icon-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-box__top-icon {
+    width: 86px;
+    height: 115px;
+    align-self: center;
+    padding-top: 25px;
+}
+.login-box__top-title {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: .5rem;
+}
+.login-box_middle {
+    margin-top: 1.5rem;
+}
+.login-box_middle-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-box_middle-form__input {
+    width: 39rem;
+    margin-top: 4rem;
+    padding: 1.5rem 0;
+    border-radius: 15px;
+    border: none;
+    padding-right: 1rem;
+    background-color: #EFEFEF;
+    color: #969696;
+    font-size: 1.66rem;
+}
+.register-container {
+    margin-top: 1.5rem;
+}
+.register {
+    font-size: 1.3rem;
+    margin: 1.6rem;
+}
+.register-link {
+
+}
+.login-box__bottom {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.login-box__bottom-btn {
+    align-self: flex-end;
+    margin-bottom: 5.5rem;
+    width: 88.5%;
+    padding: 1.2rem 0;
+    border-radius: 15px;
+    border: none;
+    background-color: #FFAE8C;
+    font-size: 2.3rem;
+    transition: all ease 400ms;
+}
+.login-box__bottom-btn:hover {
+    background-color: #D38D70;
+    color: var(--white-color);
+    cursor: pointer;
+}
