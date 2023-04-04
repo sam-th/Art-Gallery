@@ -15,7 +15,6 @@
     display: flex;
     flex-direction: column;
     width: 44rem;
-    height: 60rem;
 }
 .login-box__top-icon-title {
     display: flex;
@@ -81,6 +80,7 @@
     background-color: #FFAE8C;
     font-size: 2.3rem;
     transition: all ease 400ms;
+    margin: 2rem 0;
 }
 .login-box__bottom-btn:hover {
     background-color: #D38D70;
