@@ -2,46 +2,47 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>Art Gallery | login page</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Art Gallery</title>
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/login-register.css">
     </head>
     <body>
-        <header>
-        <nav class="nav">
-            <div class="nav-bar">
-                <div class="nav-bar__right">
-                    <a href="#" class="nav-bar__right-link nav-bar__link">صفحه ی اصلی</a>
-                    <a href="#" class="nav-bar__right-link nav-bar__link">درباره ی ما</a>
-                    <a href="#" class="nav-bar__right-link nav-bar__link">تماس با مدیریت</a>
-                    <a href="#" class="nav-bar__right-link nav-bar__link">فروشگاه</a>
+        <header class="header">
+            <nav class="nav">
+                <div class="nav-bar">
+                    <div class="nav-bar__right">
+                        <a href="#" class="nav-bar__right-link nav-bar__link">صفحه ی اصلی</a>
+                        <a href="#" class="nav-bar__right-link nav-bar__link">درباره ی ما</a>
+                        <a href="#" class="nav-bar__right-link nav-bar__link">تماس با مدیریت</a>
+                        <a href="#" class="nav-bar__right-link nav-bar__link">فروشگاه</a>
+                    </div>
+                    <div class="nav-bar__left">
+                        <a href="#" class="nav-bar__left-link nav-bar__link">ورود / ثبت نام</a>
+                    </div>
                 </div>
-                <div class="nav-bar__left">
-                    <a href="#" class="nav-bar__left-link nav-bar__link">ورود / ثبت نام</a>
-                </div>
-            </div>
-        </nav>
+            </nav>
         </header>
         <section class="login-section">
             <div class="login-box">
                 <div class="login-box__top">
                     <div class="login-box__top-icon-title">
                         <img src="./images/login-register-page.png" alt="" class="login-box__top-icon">
-                        <h1 class="login-box__top-title">ورود به حساب کاربری</h1>
+                        <h1 class="login-box__top-title">ایجاد حساب کاربری</h1>
                     </div>
                 </div>
                 <div class="login-box_middle">
                     <form class="login-box_middle-form">
-                        <input type="text" placeholder="ایمیل یا نام کاربری" class="login-box_middle-form__input">
+                        <input type="text" placeholder="نام کاربری" class="login-box_middle-form__input">
+                        <input type="text" placeholder="نام و نام خانوادگی" class="login-box_middle-form__input">
+                        <input type="email" placeholder="ایمیل" class="login-box_middle-form__input">
                         <input type="password" placeholder="رمز عبور" class="login-box_middle-form__input">
                     </form>
                     <div class="register-container">
-                        <span class="register">حساب کاربری ندارید؟ <a href="./register.html" class="register-link">اینجا کیلیک کنید!</a></span>
+                        <span class="register">حساب کاربری دارید؟<a href="./login.html" class="register-link">اینجا کیلیک کنید!</a></span>
                     </div>
                 </div>
                 <div class="login-box__bottom">
-                    <button type="button" class="login-box__bottom-btn">ورود</button>
+                    <button type="button" class="login-box__bottom-btn">ثبت نام</button>
                 </div>
             </div>
         </section>
