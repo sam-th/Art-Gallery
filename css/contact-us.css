@@ -1,0 +1,74 @@
+@import "./defult.css";
+@import "./nav-bar.css";
+@import "./footer.css";
+
+.contact-us-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.contact-us__form {
+    background-color: #F0F0F0;
+    box-shadow: 11px 5px 52px rgba(0,0,0,.3);
+    width: 90%;
+    border-radius: 12px;
+    padding: 0 14rem;
+}
+.contact-us__form-title {
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+.contact-us__form-inputs {
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-us__form-input-group {
+    padding-top: 2.5rem;
+}
+.input-group__lable {
+    display: block;
+    font-size: 2.4rem;
+    padding-bottom: 1rem;
+}
+.input-group__input {
+    display: block;
+    border: none;
+    border-radius: .5rem;
+    padding: 1rem 1rem;
+    width: 36rem;
+}
+.textarea-group {
+    margin-top: 4rem;
+}
+.contact-us__form-textarea {
+    width: 43%;
+    height: 15rem;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1.8rem;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+.contact-us__form-btn {
+    margin: 3rem 0;
+    text-align: center;
+    width: 85%;
+    padding: 1rem 0;
+    border: none;
+    border-radius: 1rem;
+    color: #fff;
+    background-color: #FFAE8C;
+    font-size: 2rem;
+    box-shadow: 0px 2px 9px rgba(0,0,0,.1);
+    transition: all ease 400ms;
+}
+.contact-us__form-btn:hover {
+    background-color: #e39d7f;
+    box-shadow: none;
+
+}
